@@ -1,0 +1,17 @@
+ul{
+  justify-content:flex-start;
+  margin-top: 40px;
+  flex-direction: row;
+}
+
+a{
+  margin-left: 100px;
+  margin-bottom: 30px;
+  font-size: 30px;
+  color:rgb(13, 94, 247);
+  font-family:sans-serif;
+}
+
+a:hover{
+  color:cadetblue;
+}
