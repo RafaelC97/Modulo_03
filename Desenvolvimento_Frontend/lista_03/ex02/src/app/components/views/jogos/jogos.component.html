@@ -1,0 +1,10 @@
+<h1>Lista de jogos</h1>
+
+<div class="jogos">
+  <div class="card" *ngFor=" let jogo of jogos">
+    <img [src]="jogo.img" alt="Capa do jogo">
+    <p> Nome: {{jogo.nome}} </p>
+    <p> Genero: {{jogo.genero}} </p>
+    <p> Ano de lançamento {{jogo.anoLancamento}} </p>
+  </div>
+</div>

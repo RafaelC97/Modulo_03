@@ -1,0 +1,16 @@
+ul {
+  font-size: 40px;
+  margin-left: 30px;
+  display: flex;
+}
+
+a{
+  margin-left: 100px;
+  color: rebeccapurple;
+  text-decoration: none;
+}
+
+a:hover{
+  color: rgb(103, 18, 189);
+  font-size: 41px;
+}

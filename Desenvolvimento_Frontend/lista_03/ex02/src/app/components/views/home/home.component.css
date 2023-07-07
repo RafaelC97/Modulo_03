@@ -1,0 +1,17 @@
+div{
+  justify-content: center;
+  text-align: center;
+}
+
+h1{
+  color: rebeccapurple;
+  margin-top: 50px;
+}
+
+p{
+  font-size: 20px;
+}
+
+img{
+  display: inline-block;
+}
