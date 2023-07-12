@@ -35,8 +35,9 @@ public class BancoDeDados {
     public String delete(int id){
         for(Cosmetico cosmetico : cosmeticos){
             if(id == cosmetico.getId()){
+                String menssage = cosmetico.getNome() + " deletado com sucesso!";
                 cosmeticos.remove(cosmetico);
-                return "Cosmético deletado com sucesso!";
+                return menssage;
             }
         }
         return "Cosmético inexistente!";
