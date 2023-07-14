@@ -1,0 +1,9 @@
+<h1 class="titulo">Lista de Animais</h1>
+<div class="listaDeAnimais">
+  <div class="animal" *ngFor="let animal of animais">
+    <p>ID: {{animal._id}}</p>
+    <p>Nome: {{animal.nome}}</p>
+    <p>Raça: {{animal.raca}}</p>
+    <p>Peso: {{animal.peso}}</p>
+  </div>
+</div>

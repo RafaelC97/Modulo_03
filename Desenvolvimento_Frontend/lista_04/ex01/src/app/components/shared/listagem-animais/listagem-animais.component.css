@@ -1,0 +1,18 @@
+.titulo{
+  margin: 35px;
+  text-align: center;
+  color: saddlebrown;
+}
+
+.listaDeAnimais{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.animal{
+  border: solid grey 2px;
+  margin: 5px;
+  padding: 7px;
+  border-radius: 5%;
+  background-color: white;
+}
