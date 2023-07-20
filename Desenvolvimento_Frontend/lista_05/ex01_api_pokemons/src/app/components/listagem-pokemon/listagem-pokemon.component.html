@@ -1,0 +1,9 @@
+<h1 class="titulo">Lista de Pokemons</h1>
+<div class = "main">
+  <div *ngFor="let pokemon of pokemons" class="pokemons">
+    <img [src]="pokemon.sprites.front_default">
+    <p>Nº: {{ pokemon.id }}</p>
+    <p>Nome: {{ pokemon.name }}</p>
+  </div>
+</div>
+
