@@ -1,0 +1,17 @@
+.main{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.animais{
+  padding: 5px;
+  border: double black;
+  background-color: white;
+  margin: 10px;
+  width: 200px;
+  height: 300px;
+}
+
+.texto-card p{
+  margin: 7px;
+}

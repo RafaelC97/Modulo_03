@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+
+*{
+  margin: none;
+  padding: none;
+}
+
+body, html{
+  width: 90%;
+  height: 90%;
+}
+
+body{
+  background-image: url(./assets/imagens/background.jpeg);
+}
