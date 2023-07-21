@@ -1,3 +1,36 @@
+.adiciona-animal{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  margin-top: 20px;
+}
+
+.adiciona-animal input{
+  margin: 10px;
+  height: 25px;
+  width: 300px;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 15px;
+}
+
 .adiciona-animal button{
+  margin-top: 7px;
   cursor: pointer;
+  height: 30px;
+  width: 310px;
+  border-radius: 20px;
+  font-size: 15px;
+}
+
+h2{
+  margin: 0 50px;
+  text-decoration: none;
+  font-size: 40px;
+  color: #D69A3A;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
 }

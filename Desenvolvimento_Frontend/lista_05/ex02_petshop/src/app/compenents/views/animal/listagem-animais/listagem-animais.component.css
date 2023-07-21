@@ -1,5 +1,6 @@
 .main{
   display: flex;
+  justify-content:space-around;
   flex-wrap: wrap;
 }
 
@@ -9,7 +10,12 @@
   background-color: white;
   margin: 10px;
   width: 200px;
-  height: 300px;
+  height: 280px;
+  border-radius: 10px;
+}
+
+.animais img{
+  border-radius: 5px;
 }
 
 .texto-card p{

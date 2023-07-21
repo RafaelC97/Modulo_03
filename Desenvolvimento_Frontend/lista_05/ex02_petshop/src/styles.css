@@ -5,11 +5,7 @@
   padding: none;
 }
 
-body, html{
-  width: 90%;
-  height: 90%;
-}
-
 body{
   background-image: url(./assets/imagens/background.jpeg);
+  background-size:auto;
 }

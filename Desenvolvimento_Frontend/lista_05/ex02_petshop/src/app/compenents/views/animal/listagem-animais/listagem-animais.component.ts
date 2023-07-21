@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { AnimalService } from 'src/app/services/animal.service';
-import { Animal } from 'src/models/animal';
+import { Animal } from 'src/app/models/animal';
 
 @Component({
   selector: 'app-listagem-animais',
