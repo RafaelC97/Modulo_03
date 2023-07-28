@@ -1,0 +1,13 @@
+.titulo{
+  text-align: center;
+  margin: 20px 0;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+}
+
+.card{
+  margin-right: 20px;
+}

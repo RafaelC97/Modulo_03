@@ -1,0 +1,17 @@
+<h3 class="titulo">Lista de produtos</h3>
+
+<div class="container">
+  <div class="card" style="width: 18rem;" *ngFor="let cosmetico of cosmeticos">
+    <img [src]="cosmetico.imagemUrl" class="card-img-top" alt="imagem do produto">
+    <div class="card-body">
+      <h5 class="card-title">{{ cosmetico.nome }}</h5>
+    </div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">Preço: R${{ cosmetico.preco }}</li>
+    </ul>
+    <div class="card-body">
+      <a href="#" class="card-link">Detalhes</a>
+      <a href="#" class="card-link">Comprar</a>
+    </div>
+  </div>
+</div>
