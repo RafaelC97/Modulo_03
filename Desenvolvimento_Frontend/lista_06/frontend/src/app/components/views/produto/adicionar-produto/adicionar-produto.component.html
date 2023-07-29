@@ -1,1 +1,10 @@
-<p>adicionar-produto works!</p>
+<h2>Adicionar Produto</h2>
+<div class="adicionar-produto">
+  <input type="text" placeholder="Nome" [(ngModel)]="nome">
+  <input type="text" placeholder="Categoria" [(ngModel)]="categoria">
+  <input type="number" placeholder="Valor" [(ngModel)]="valor">
+  <input type="text" placeholder="Descrição" [(ngModel)]="descricao">
+  <input type="text" placeholder="Imagem" [(ngModel)]="imagem">
+
+  <button (click)="adicionarProduto()">Adicionar Produto</button>
+</div>

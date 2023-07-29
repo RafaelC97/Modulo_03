@@ -6,7 +6,6 @@ import { AdicionarProdutoComponent } from './components/views/produto/adicionar-
 
 const routes: Routes = [
   { path: '', component: HomeComponent},
-  { path: 'listagem-produtos', component: ListagemProdutosComponent},
   { path: 'adicionar-produto', component: AdicionarProdutoComponent}
 ];
 

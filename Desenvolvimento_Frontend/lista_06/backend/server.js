@@ -39,7 +39,7 @@ app.post("/adicionar-produto", async (req, res) =>{
 })
 
 mongoose.connect(connectionString, {
-    dbName: "EstoqueLoja"
+    dbName: "estoqueLoja"
 }).then(() => {
     console.log("MongoDB UP!")
     console.log(`http://localhost:${port}`)
