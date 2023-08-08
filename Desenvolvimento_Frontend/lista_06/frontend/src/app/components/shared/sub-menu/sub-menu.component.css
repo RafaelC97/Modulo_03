@@ -1,0 +1,25 @@
+.sub-menu{
+  display: flex;
+  justify-content:center;
+}
+
+.sub-menu a {
+  text-decoration: none;
+  margin: 0 15px;
+  margin-bottom: 15px;
+}
+
+.sub-menu a:hover{
+  background-color: rgb(128, 128, 128, 0.5);
+  padding: 5px;
+  border-radius: 5px;
+  transition: 150ms linear;
+  margin-bottom: 5px;
+}
+
+hr{
+  margin-bottom: 25px;
+}
+
+
+
