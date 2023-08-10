@@ -7,3 +7,5 @@
     ng generate component nome-do-componente | cria um novo componente (ng g c nome-do-componente)
     
     ng generate service nome-do-service | cria um novo serviço (ng g s nome-do-service)
+
+    ng add @angular/material (instala angular material)
