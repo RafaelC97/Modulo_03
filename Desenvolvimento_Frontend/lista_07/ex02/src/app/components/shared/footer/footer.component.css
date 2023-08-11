@@ -1,0 +1,28 @@
+.footer {
+  display: flex;
+  height: 10%;
+  width: 100%;
+  background-color: darkslateblue;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.informacao-rodape {
+  align-items: center;
+  display: flex;
+}
+
+.informacao-rodape img {
+  margin-left: 20px;
+  width: 50px;
+}
+
+.info {
+  margin-left: 20px;
+}
+
+.info p {
+  flex-direction: column;
+  margin: 2px 0;
+  color: white;
+}

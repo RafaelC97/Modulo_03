@@ -1,0 +1,48 @@
+.header {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: darkslateblue;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo img {
+  margin: 0 30px;
+  width: 50px;
+}
+
+.logo h2 {
+  color: white;
+  text-align: center;
+}
+
+.menu {
+  margin-right: 10px;
+}
+
+.menu a {
+  margin: 0 15px;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 23px;
+  color: white
+}
+
+.menu a:hover {
+  background-color: rgb(128, 128, 128, 0.25);
+  transition: 150ms linear;
+  text-decoration: underline;
+  color: deepskyblue;
+} */
+
+.example-spacer {
+  flex: 1 1 auto;
+}

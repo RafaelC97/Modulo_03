@@ -1,1 +1,59 @@
-<p>login works!</p>
+<div class="page">
+  <div class="content-image">
+    <img src="https://static-00.iconduck.com/assets.00/angular-icon-1931x2048-bef1f3lm.png" />
+    <h2>Curso de Angular</h2>
+  </div>
+
+  <div class="content-right">
+    <div class="content-formulario">
+      <div class="form">
+        <div class="rotacao">
+          <img src="https://thypix.com/wp-content/uploads/2021/05/neon-frame-transparent-background-63-700x674.png" />
+        </div>
+
+          <mat-form-field>
+            <mat-label>Login ou Email</mat-label>
+            <input matInput type="text" [(ngModel)]="email">
+            <button *ngIf="email" matSuffix mat-icon-button aria-label="Clear" (click)="email=''">
+              <mat-icon>close</mat-icon>
+            </button>
+          </mat-form-field>
+
+          <mat-form-field>
+            <mat-label>Senha</mat-label>
+            <input matInput type="password" [(ngModel)]="senha">
+            <button *ngIf="senha" matSuffix mat-icon-button aria-label="Clear" (click)="senha=''">
+              <mat-icon>close</mat-icon>
+            </button>
+          </mat-form-field>
+
+        <div class="botoes">
+          <button mat-raised-button color="primary">Login</button>
+          <button mat-raised-button color="primary">Registrar-se</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="content-cursos">
+      <p>Outros Cursos</p>
+
+      <div class="outros-cursos">
+        <div class="curso">
+          <img src="https://ih1.redbubble.net/image.4966926826.0666/st,small,507x507-pad,600x600,f8f8f8.jpg" />
+          <a href="">Python</a>
+        </div>
+
+        <div class="curso">
+          <img
+            src="https://thumbs.dreamstime.com/b/vektorsamling-av-tecken-f%C3%B6r-reng%C3%B6ringsdukutvecklingssk%C3%B6ld-html-css-38571884.jpg" />
+          <a href="">JavaScript, HTML e CSS</a>
+        </div>
+
+        <div class="curso">
+          <img src="https://cdn.icon-icons.com/icons2/2415/PNG/512/java_original_wordmark_logo_icon_146459.png" />
+          <a href="">Java</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

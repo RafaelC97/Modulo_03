@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class LoginComponent {
 
+  public email!: string;
+
+  public senha!: string;
 }
