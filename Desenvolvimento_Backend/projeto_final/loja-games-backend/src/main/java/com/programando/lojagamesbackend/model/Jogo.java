@@ -20,7 +20,7 @@ public class Jogo {
     private String descricao;
 
     @NotNull
-    private BigDecimal preco;
+    private int preco;
 
     @NotNull
     private String imagem;
